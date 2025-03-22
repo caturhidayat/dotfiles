@@ -8,15 +8,17 @@ on macos :
 
 ## Structure folder for STOW or Conventional naming
 
-**dotfiles**
-~/.config/nvim \n
-~/.config/tmux \n
-~/.zshrc \n
+## **dotfiles**
 
-**GNU STOW**
-nvim/.config/nvim \n
-tmux/.config/tmux \n
-zsh/.zshrc \n
+- ~/.config/nvim
+- ~/.config/tmux
+- ~/.zshrc
+
+## **GNU STOW**
+
+- nvim/.config/nvim
+- tmux/.config/tmux
+- zsh/.zshrc
 
 ## Use STOW
 
