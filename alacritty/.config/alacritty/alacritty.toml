@@ -1,0 +1,12 @@
+[window]
+dynamic_padding = true
+decorations = "Buttonless"
+startup_mode = "Maximized"
+title = "Workspaces"
+
+[font]
+size=16
+normal = { family = "Menlo", style = "Regular" }
+
+[cursor]
+style = { shape = "Beam", blinking= "On"}

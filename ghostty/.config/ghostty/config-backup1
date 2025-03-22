@@ -1,0 +1,69 @@
+
+
+# auto-update = check
+# auto-update-changes = stable
+
+# Appearance
+term = xterm-256color
+# theme = gruvbox-material
+theme = gruvboxDark
+# background-opacity = 0.9
+# background-blur-radius = 12 
+
+
+# Fonts
+font-family = "FiraCode Nerd Font Mono Ret"
+font-thicken = true
+font-size = 16
+font-style = normal
+bold-is-bright = false
+
+# terminal
+quit-after-last-window-closed = true
+quick-terminal-autohide = true
+quick-terminal-position = center
+quick-terminal-screen = main
+
+shell-integration = zsh 
+shell-integration-features = no-cursor 
+
+
+
+# Keybinds
+mouse-hide-while-typing = true
+window-decoration = true
+keybind = global:cmd+s=toggle_quick_terminal
+
+
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = false
+
+# window 
+fullscreen = false
+title = Ghostty
+window-decoration = true
+window-height = 36
+working-directory = home
+window-inherit-working-directory = true
+window-new-tab-position = end 
+window-padding-balance = true
+window-padding-x = 3
+window-padding-y = 3
+window-width = 122
+
+# macos
+macos-non-native-fullscreen = false
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+macos-window-shadow = true
+macos-titlebar-style = hidden
+macos-non-native-fullscreen = visible-menu
+
+# Notification
+desktop-notifications = false
+window-vsync = false
+
+# Cursor
+cursor-style-blink = true
+cursor-style = bar
