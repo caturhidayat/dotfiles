@@ -9,14 +9,14 @@ on macos :
 ## Structure folder for STOW or Conventional naming
 
 **dotfiles**
-~/.config/nvim
-~/.config/tmux
-~/.zshrc
+~/.config/nvim \n
+~/.config/tmux \n
+~/.zshrc \n
 
 **GNU STOW**
-nvim/.config/nvim
-tmux/.config/tmux
-zsh/.zshrc
+nvim/.config/nvim \n
+tmux/.config/tmux \n
+zsh/.zshrc \n
 
 ## Use STOW
 
