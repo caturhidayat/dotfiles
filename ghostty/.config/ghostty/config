@@ -19,7 +19,7 @@ cursor-invert-fg-bg = true
 # Kitty Graphics
 # enable-kitty-graphics = true
 
-macos-titlebar-style = hidden
+#macos-titlebar-style = hidden
 # macos-titlebar-style = transparent
 mouse-hide-while-typing = true
 

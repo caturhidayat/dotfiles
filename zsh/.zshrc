@@ -55,3 +55,11 @@ source <(fzf --zsh)
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# Ruby
+eval "$(rbenv init - --no-rehash zsh)"
+export PATH="/opt/homebrew/bin:$PATH"
+eval "$(~/.local/bin/mise activate)"
+ulimit -S -n 200048 # Fix Lazy (Package Manager) for neovim
+eval "$(rbenv init -)"
