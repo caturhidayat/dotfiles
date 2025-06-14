@@ -63,3 +63,11 @@ export PATH="/opt/homebrew/bin:$PATH"
 eval "$(~/.local/bin/mise activate)"
 ulimit -S -n 200048 # Fix Lazy (Package Manager) for neovim
 eval "$(rbenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/broky/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
