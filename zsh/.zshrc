@@ -36,9 +36,9 @@ alias shd="npx shadcn@latest"
 eval "$(starship init zsh)"
 
 # NVM Config
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 . "/Users/broky/.deno/env"
 # Added by Windsurf
 export PATH="/Users/broky/.codeium/windsurf/bin:$PATH"
@@ -71,3 +71,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+#
+#
+# Dev env
+eval "$(mise activate zsh)"

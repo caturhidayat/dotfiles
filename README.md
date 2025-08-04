@@ -22,6 +22,12 @@ on macos :
 
 ## Use STOW
 
+## STOW Package
+
 cd to dotfiles dir, and then :
 
 `stow [dir name]`
+
+## UNSTOW Package
+
+`stow -D [dir name]`
