@@ -1,6 +1,6 @@
 [tools]
 go = "1.24.5"
-node = "22"
+node = "20"
 ruby = "3.4.5"
 
 [settings]

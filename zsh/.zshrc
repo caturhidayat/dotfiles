@@ -2,8 +2,7 @@
 if [[ ":$FPATH:" != *":/Users/broky/.zsh/completions:"* ]]; then export FPATH="/Users/broky/.zsh/completions:$FPATH"; fi
 # ~/.zshrc
 
-
-# Alias command
+# Alias Git command
 alias pn="pnpm"
 alias ga="git add ."
 alias gs="git status"
@@ -16,7 +15,7 @@ alias lg="lla -g"
 alias bsl="brew services ls --json"
 
 
-# Alias for prisma
+# Alias Prisma Command
 alias pmd="npx prisma migrate dev"
 alias pmdp="npx prisma migrate deploy"
 alias pv="npx prisma validate"
@@ -30,6 +29,9 @@ alias pg="npx prisma generate"
 # shd add [component name] - add component
 alias shd="npx shadcn@latest"
 
+# Alias Rails Command
+alias rs="bin/rails s"
+alias rc="bin/rails c"
 
 
 # Starship
@@ -39,12 +41,12 @@ eval "$(starship init zsh)"
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-. "/Users/broky/.deno/env"
+# . "/Users/broky/.deno/env"
 # Added by Windsurf
 export PATH="/Users/broky/.codeium/windsurf/bin:$PATH"
 
 # Zig 
-export PATH=$PATH:/usr/local/zig
+
 
 # FZF
 source <(fzf --zsh)
@@ -58,11 +60,11 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 # Ruby
-eval "$(rbenv init - --no-rehash zsh)"
-export PATH="/opt/homebrew/bin:$PATH"
-eval "$(~/.local/bin/mise activate)"
-ulimit -S -n 200048 # Fix Lazy (Package Manager) for neovim
-eval "$(rbenv init -)"
+# eval "$(rbenv init - --no-rehash zsh)"
+# export PATH="/opt/homebrew/bin:$PATH"
+# eval "$(~/.local/bin/mise activate)"
+# ulimit -S -n 200048 # Fix Lazy (Package Manager) for neovim
+# eval "$(rbenv init -)"
 
 # pnpm
 export PNPM_HOME="/Users/broky/Library/pnpm"
@@ -74,4 +76,5 @@ esac
 #
 #
 # Dev env
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"
+eval "$(~/.local/bin/mise activate zsh)"

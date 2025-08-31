@@ -2,7 +2,9 @@
 
 # theme = gruvboxDark
 # theme = catppuccin-macchiato
-theme = Kanagawa Wave
+
+ theme = catppuccin-frappe
+# theme = Kanagawa Wave
 # background = #000000
 # background-opacity = 0.7
 # background-blur-radius = 25
