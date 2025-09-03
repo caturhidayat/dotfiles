@@ -1,3 +1,0 @@
-return {
-  { "wiliamboman/mason.nvim" }
-}
