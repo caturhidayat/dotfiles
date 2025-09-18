@@ -1,9 +1,9 @@
 # By default Reload config with shft + cmd + , 
 
 # theme = gruvboxDark
-# theme = catppuccin-macchiato
-
- theme = catppuccin-frappe
+# theme = Catppuccin Macchiato
+theme = Catppuccin Mocha
+# theme = Catppuccin Frappe
 # theme = Kanagawa Wave
 # background = #000000
 # background-opacity = 0.7
