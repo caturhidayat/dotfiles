@@ -78,3 +78,4 @@ esac
 # Dev env
 # eval "$(mise activate zsh)"
 eval "$(~/.local/bin/mise activate zsh)"
+export PATH=$PATH:$HOME/.local/bin

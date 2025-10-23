@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "ruby_lsp", "rubocop" }
+local servers = { "html", "cssls", "ruby_lsp", "rubocop", "swift_mesonls" }
 vim.lsp.enable(servers)
 
 -- read :h vim.lsp.config for changing options of lsp servers 
