@@ -3,6 +3,7 @@
 # theme = gruvboxDark
 # theme = Catppuccin Macchiato
 theme = Catppuccin Mocha
+# theme = Rose Pine
 # theme = Catppuccin Frappe
 # theme = Kanagawa Wave
 # background = #000000
@@ -10,10 +11,11 @@ theme = Catppuccin Mocha
 # background-blur-radius = 25
 
 # font-family = FiraCode Nerd Font Mono Ret
-font-family = JetBrains Mono   
+font-family = FiraCode Nerd Font Mono
+# font-family = JetBrains Mono   
 # font-family = BlexMono Nerd Font
 # font-family = Hack Nerd Font
-font-size = 16
+font-size = 18
 cursor-style = bar
 cursor-style-blink = true
 cursor-invert-fg-bg = true
@@ -21,14 +23,14 @@ cursor-invert-fg-bg = true
 # Kitty Graphics
 # enable-kitty-graphics = true
 
-#macos-titlebar-style = hidden
+macos-titlebar-style = hidden
 # macos-titlebar-style = transparent
 mouse-hide-while-typing = true
 
 confirm-close-surface = false
 window-decoration = true
-window-padding-x = 10
-window-padding-y = 0
+window-padding-x = 40
+window-padding-y = 17
 window-padding-balance = true
 window-height = 80
 window-width = 150

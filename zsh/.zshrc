@@ -29,13 +29,21 @@ alias pg="npx prisma generate"
 # shd add [component name] - add component
 alias shd="npx shadcn@latest"
 
+# Alias Ruby
+alias r="ruby"
+
+
+
 # Alias Rails Command
 alias rs="bin/rails s"
 alias rc="bin/rails c"
 
+# Alias NeoVim 
+alias vim="nvim"
 
 # Starship
 eval "$(starship init zsh)"
+
 
 # NVM Config
 # export NVM_DIR="$HOME/.nvm"
@@ -74,8 +82,17 @@ case ":$PATH:" in
 esac
 # pnpm end
 #
-#
 # Dev env
 # eval "$(mise activate zsh)"
 eval "$(~/.local/bin/mise activate zsh)"
 export PATH=$PATH:$HOME/.local/bin
+
+# Added by Windsurf
+export PATH="/Users/caturhidayat.space/.codeium/windsurf/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/caturhidayat.space/.codeium/windsurf/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/caturhidayat.space/.antigravity/antigravity/bin:$PATH"
+

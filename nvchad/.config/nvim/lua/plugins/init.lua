@@ -21,7 +21,7 @@ return {
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-       "html", "css", "javascript", "ruby", "rust", "typescript", "swift", "zig"
+       "html", "css", "javascript", "ruby", "swift"
   		},
   	},
     highlight = {

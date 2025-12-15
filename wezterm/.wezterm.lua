@@ -1,9 +1,12 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
+-- Rose Pine Themes option : [main, moon]
+-- local theme = wezterm.plugin.require('https://github.com/neapsix/wezterm').moon
 -- wezterm.font({ family = "Fire Code Nerd Font" })
-wezterm.font({ family = "JetBrains Mono" })
-config.font_size = 17
+wezterm.font({ family = "Martian Mono Nerd Font" })
+-- wezterm.font({ family = "JetBrains Mono" })
+config.font_size = 18
 -- config.font = wezterm.font { family = 'Fira Code Nerd Font', weight = 'Bold'},
 config.automatically_reload_config = true
 config.enable_tab_bar = false
@@ -18,9 +21,9 @@ config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
 
 config.window_padding = {
-	left = 18,
-	right = 15,
-	top = 20,
+	left = 85,
+	right = 85,
+	top = 90,
 	bottom = 5,
 }
 
@@ -33,6 +36,11 @@ config.keys = {
 	},
 }
 
+-- Cursor config
+config.cursor_blink_rate = 800
+
+
+-- Initiate Column & Rows
 config.initial_cols = 180
 config.initial_rows = 50
 
@@ -54,34 +62,37 @@ config.keys = {
 -- Add Custom Color Scheme
 -- config.color_scheme = "Gruvbox Dark, Hard (base16)"
 -- config.color_scheme = 'Gruvbox dark, medium (base16)'
+-- config.color_scheme = "Catppuccin Frappe"
+-- config.color_scheme = "Catppuccin Latte"
+config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Catppuccin Macchiato"
 -- config.colors = {
 -- background = "#12151B", -- lighter gray
 -- background = "#0D0D0D", -- darker gray
---    background = "#000", -- pure black
+   -- background = "#000", -- pure black
 --    cursor_bg = "#9B96B5",
 -- cursor_fg = "#1a1a1e",
 -- cursor_border = "#9B96B5",
 -- }
-
+--
 -- local force_reverse_video_cursor = true
-config.colors = {
-	foreground = "#dcd7ba",
-	background = "#1f1f28",
-
-	cursor_bg = "#c8c093",
-	cursor_fg = "#c8c093",
-	cursor_border = "#c8c093",
-
-	selection_fg = "#c8c093",
-	selection_bg = "#2d4f67",
-
-	scrollbar_thumb = "#16161d",
-	split = "#16161d",
-
-	ansi = { "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8", "#957fb8", "#6a9589", "#c8c093" },
-	brights = { "#727169", "#e82424", "#98bb6c", "#e6c384", "#7fb4ca", "#938aa9", "#7aa89f", "#dcd7ba" },
-	indexed = { [16] = "#ffa066", [17] = "#ff5d62" },
-}
+-- config.colors = {
+-- 	foreground = "#dcd7ba",
+-- 	background = "#1f1f28",
+--
+-- 	cursor_bg = "#c8c093",
+-- 	cursor_fg = "#c8c093",
+-- 	cursor_border = "#c8c093",
+--
+-- 	selection_fg = "#c8c093",
+-- 	selection_bg = "#2d4f67",
+--
+-- 	scrollbar_thumb = "#16161d",
+-- 	split = "#16161d",
+--
+-- 	ansi = { "#090618", "#c34043", "#76946a", "#c0a36e", "#7e9cd8", "#957fb8", "#6a9589", "#c8c093" },
+-- 	brights = { "#727169", "#e82424", "#98bb6c", "#e6c384", "#7fb4ca", "#938aa9", "#7aa89f", "#dcd7ba" },
+-- 	indexed = { [16] = "#ffa066", [17] = "#ff5d62" },
+-- }
 
 return config
