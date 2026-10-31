@@ -1,7 +1,13 @@
 return {
   "catppuccin/nvim",
 
-  enable = false,
+  enable = true,
   name = "catppuccin",
-  priority = 1000
+  priority = 1000,
+  opts = {
+    background = {
+      light = "latte",
+      dark = "frappe"
+    }
+  }
 }

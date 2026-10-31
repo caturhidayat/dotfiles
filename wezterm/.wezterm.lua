@@ -9,7 +9,11 @@ wezterm.font({ family = "Martian Mono Nerd Font" })
 config.font_size = 18
 -- config.font = wezterm.font { family = 'Fira Code Nerd Font', weight = 'Bold'},
 config.automatically_reload_config = true
-config.enable_tab_bar = false
+
+-- window_decorations
+config.enable_tab_bar = true
+config.use_fancy_tab_bar = false
+config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "RESIZE"
 config.adjust_window_size_when_changing_font_size = false
 config.harfbuzz_features = { "calt=0" }
@@ -65,6 +69,7 @@ config.keys = {
 -- config.color_scheme = "Catppuccin Frappe"
 -- config.color_scheme = "Catppuccin Latte"
 config.color_scheme = "Catppuccin Mocha"
+-- config.color_scheme = "Eldritch"
 -- config.color_scheme = "Catppuccin Macchiato"
 -- config.colors = {
 -- background = "#12151B", -- lighter gray

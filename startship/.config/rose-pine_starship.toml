@@ -1,3 +1,4 @@
+# Rose Pine starship
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """

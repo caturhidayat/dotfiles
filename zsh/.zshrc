@@ -96,3 +96,6 @@ export PATH="/Users/caturhidayat.space/.codeium/windsurf/bin:$PATH"
 # Added by Antigravity
 export PATH="/Users/caturhidayat.space/.antigravity/antigravity/bin:$PATH"
 
+
+# nanobrew
+export PATH="/opt/nanobrew/prefix/bin:$PATH"

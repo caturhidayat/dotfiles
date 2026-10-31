@@ -1,8 +1,11 @@
 # By default Reload config with shft + cmd + , 
 
+# Themes Config ==============================
 # theme = gruvboxDark
-# theme = Catppuccin Macchiato
-theme = Catppuccin Mocha
+# theme = Gruvbox Material
+theme = Catppuccin Macchiato
+# theme = Catppuccin Mocha
+# theme = Eldritch
 # theme = Rose Pine
 # theme = Catppuccin Frappe
 # theme = Kanagawa Wave
@@ -10,30 +13,37 @@ theme = Catppuccin Mocha
 # background-opacity = 0.7
 # background-blur-radius = 25
 
+# Font Config ================================
 # font-family = FiraCode Nerd Font Mono Ret
 font-family = FiraCode Nerd Font Mono
 # font-family = JetBrains Mono   
 # font-family = BlexMono Nerd Font
 # font-family = Hack Nerd Font
 font-size = 18
-cursor-style = bar
-cursor-style-blink = true
+
+# Cursor Config ==============================
+cursor-style = block
+# cursor-style-blink = true
 cursor-invert-fg-bg = true
 
 # Kitty Graphics
 # enable-kitty-graphics = true
 
-macos-titlebar-style = hidden
+
+# native, transparent, tabs and hidden
+macos-titlebar-style = tabs
 # macos-titlebar-style = transparent
 mouse-hide-while-typing = true
 
+# Window config
 confirm-close-surface = false
 window-decoration = true
-window-padding-x = 40
+window-padding-x = 30
 window-padding-y = 17
+window-padding-color = extend
 window-padding-balance = true
 window-height = 80
-window-width = 150
+window-width = 65
 
 auto-update = check
 auto-update-channel = stable
@@ -81,3 +91,6 @@ keybind = super+b>h=goto_split:left
 keybind = super+b>j=goto_split:bottom
 keybind = super+b>k=goto_split:top
 keybind = super+b>l=goto_split:right
+
+# keybind for open Claude Code 
+keybind = shift+enter=text:\x1br
